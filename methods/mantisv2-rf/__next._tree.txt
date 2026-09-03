@@ -1,2 +1,0 @@
-:HL["/tsc-fm-benchmark-public/_next/static/chunks/3qv_mpi3ddp8u.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"methods","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"mantisv2-rf","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"igG3kuPQ-gj64jRjSJ0kN"}
