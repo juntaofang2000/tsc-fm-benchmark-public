@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://tsc-fm-benchmark.vercel.app/sitemap.xml
+Sitemap: https://tsc-fm.dmirlab.com/sitemap.xml
