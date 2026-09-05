@@ -1,2 +1,2 @@
 :HL["/tsc-fm-benchmark-public/_next/static/chunks/0amtj0jdvgn0p.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4184,"slots":{"children":{"name":"leaderboard","param":null,"prefetchHints":4196,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"FDaCbsWYKmhHnpTqTnv_r"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4184,"slots":{"children":{"name":"leaderboard","param":null,"prefetchHints":4196,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"mgfNA5gmWAJFR6RDBrgR-"}
