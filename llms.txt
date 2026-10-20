@@ -1,0 +1,38 @@
+# TSC-FM Benchmark
+
+> TSC-FM is a benchmark for foundation models in time series classification. It covers 198 unique datasets: 128 univariate and 70 multivariate datasets, with Standard and Low-shot evaluation settings.
+
+The canonical website is https://tsc-fm.dmirlab.com/. The benchmark compares complete classification configurations, including the pretrained model, prediction approach, classifier head where applicable, label budget, and dataset scope. In-context learning and frozen-probe approaches are evaluated. The website publishes aggregate results and dataset profiles, without individual dataset or suite identities.
+
+## Core pages
+
+- [Overview](https://tsc-fm.dmirlab.com/): Benchmark purpose, research findings, scope, and links to the paper and results.
+- [Leaderboard](https://tsc-fm.dmirlab.com/leaderboard): Published Standard, 5-shot, and 10-shot rankings, with mean accuracy, average rank, and dataset coverage for Overall, Univariate, and Multivariate scopes.
+- [Evaluation protocol](https://tsc-fm.dmirlab.com/evaluation): Label budgets, eligible datasets, in-context learning, frozen probes, aggregation, and interpretation of comparisons.
+- [Dataset profile](https://tsc-fm.dmirlab.com/benchmarks): Dataset composition and reviewed aggregate attributes.
+- [Capability map](https://tsc-fm.dmirlab.com/capability-map): Attribute-level comparisons on the fixed Overall capability core, with comparison and aggregation definitions.
+- [Model catalog](https://tsc-fm.dmirlab.com/methods): Evaluated foundation models, classification configurations, and available paper, code, and checkpoint references.
+- [Submit a model](https://tsc-fm.dmirlab.com/submit): Public repository submission for administrator review before inclusion in the official leaderboard.
+
+## Model documentation
+
+- [ChorusTIC](https://tsc-fm.dmirlab.com/methods/chorustic): In-context classification, published results, and research resources.
+- [Mantis](https://tsc-fm.dmirlab.com/methods/mantis): Frozen representations with fitted classifiers and setting-specific results.
+- [MantisV2](https://tsc-fm.dmirlab.com/methods/mantisv2): Evaluated classifier configurations, results, and comparison with Mantis.
+- [MOMENT](https://tsc-fm.dmirlab.com/methods/moment): Frozen-backbone classification configurations and results.
+- [NuTime](https://tsc-fm.dmirlab.com/methods/nutime): Frozen representations with a fitted classifier and published results.
+- [TabICL](https://tsc-fm.dmirlab.com/methods/tabicl): In-context classification applied to vectorized time series.
+- [TabICLv2](https://tsc-fm.dmirlab.com/methods/tabiclv2): Second-generation TabICL applied to vectorized time series.
+- [TIC-FM](https://tsc-fm.dmirlab.com/methods/tic-fm): In-context classification with published univariate results.
+- [TiCT](https://tsc-fm.dmirlab.com/methods/tict): In-context classification with published Standard Univariate results.
+- [UniShape](https://tsc-fm.dmirlab.com/methods/unishape): Frozen-backbone classification with a fitted classifier and published results.
+
+## Interpretation and citation
+
+Standard uses the full official training split. Low-shot uses five or ten labeled examples per class on the eligible datasets for each setting. These eligible pools differ, so subtracting their aggregate means does not isolate the effect of adding labels. Comparisons are meaningful within the same setting and dataset scope, with dataset coverage stated explicitly. Mean accuracy gives equal weight to each dataset. Aggregate score differences alone do not establish statistical significance.
+
+The leaderboard and evaluation pages provide the published results and protocol version. The rankings concern classification on the evaluated datasets; they do not establish universal model superiority, forecasting performance, deployment latency, or memory use.
+
+- [Surveying and Benchmarking Foundation Models for Time Series Classification](https://www.preprints.org/manuscript/202609.2097): Accompanying research paper, published as a preprint; not peer-reviewed.
+
+The benchmark is jointly released by DMIR Lab and Huawei Noah's Ark Lab and maintained by Juntao Fang. GitHub Pages is a content mirror; canonical research page URLs point to the primary website above.
