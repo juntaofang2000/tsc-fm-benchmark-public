@@ -25,6 +25,7 @@ The canonical website is https://tsc-fm.dmirlab.com/. The benchmark compares com
 - [TabICLv2](https://tsc-fm.dmirlab.com/methods/tabiclv2): Second-generation TabICL applied to vectorized time series.
 - [TIC-FM](https://tsc-fm.dmirlab.com/methods/tic-fm): In-context classification with published univariate results.
 - [TiCT](https://tsc-fm.dmirlab.com/methods/tict): In-context classification with published Standard Univariate results.
+- [TimEE](https://tsc-fm.dmirlab.com/methods/timee): Independently reproduced in-context classification on all 128 Standard Univariate datasets with the default four-member ensemble.
 - [UniShape](https://tsc-fm.dmirlab.com/methods/unishape): Frozen-backbone classification with a fitted classifier and published results.
 
 ## Interpretation and citation
